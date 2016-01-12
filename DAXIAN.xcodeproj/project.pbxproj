@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB17F551C44E17400D22B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB17F541C44E17400D22B97 /* main.m */; };
+		2BB17F581C44E17400D22B97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB17F571C44E17400D22B97 /* AppDelegate.m */; };
+		2BB17F5B1C44E17400D22B97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB17F5A1C44E17400D22B97 /* ViewController.m */; };
+		2BB17F5E1C44E17400D22B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB17F5C1C44E17400D22B97 /* Main.storyboard */; };
+		2BB17F601C44E17400D22B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB17F5F1C44E17400D22B97 /* Assets.xcassets */; };
+		2BB17F631C44E17400D22B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB17F611C44E17400D22B97 /* LaunchScreen.storyboard */; };
+		2BB17F6E1C44E17400D22B97 /* DAXIANTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB17F6D1C44E17400D22B97 /* DAXIANTests.m */; };
+		2BB17F791C44E17400D22B97 /* DAXIANUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB17F781C44E17400D22B97 /* DAXIANUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB17F6A1C44E17400D22B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB17F481C44E17400D22B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB17F4F1C44E17400D22B97;
+			remoteInfo = DAXIAN;
+		};
+		2BB17F751C44E17400D22B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB17F481C44E17400D22B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB17F4F1C44E17400D22B97;
+			remoteInfo = DAXIAN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BB17F501C44E17400D22B97 /* DAXIAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAXIAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB17F541C44E17400D22B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BB17F561C44E17400D22B97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BB17F571C44E17400D22B97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BB17F591C44E17400D22B97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BB17F5A1C44E17400D22B97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BB17F5D1C44E17400D22B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BB17F5F1C44E17400D22B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB17F621C44E17400D22B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BB17F641C44E17400D22B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB17F691C44E17400D22B97 /* DAXIANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAXIANTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB17F6D1C44E17400D22B97 /* DAXIANTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAXIANTests.m; sourceTree = "<group>"; };
+		2BB17F6F1C44E17400D22B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB17F741C44E17400D22B97 /* DAXIANUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAXIANUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB17F781C44E17400D22B97 /* DAXIANUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAXIANUITests.m; sourceTree = "<group>"; };
+		2BB17F7A1C44E17400D22B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB17F4D1C44E17400D22B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB17F661C44E17400D22B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB17F711C44E17400D22B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB17F471C44E17400D22B97 = {
+			isa = PBXGroup;
+			children = (
+				2BB17F521C44E17400D22B97 /* DAXIAN */,
+				2BB17F6C1C44E17400D22B97 /* DAXIANTests */,
+				2BB17F771C44E17400D22B97 /* DAXIANUITests */,
+				2BB17F511C44E17400D22B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB17F511C44E17400D22B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB17F501C44E17400D22B97 /* DAXIAN.app */,
+				2BB17F691C44E17400D22B97 /* DAXIANTests.xctest */,
+				2BB17F741C44E17400D22B97 /* DAXIANUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB17F521C44E17400D22B97 /* DAXIAN */ = {
+			isa = PBXGroup;
+			children = (
+				2BB17F561C44E17400D22B97 /* AppDelegate.h */,
+				2BB17F571C44E17400D22B97 /* AppDelegate.m */,
+				2BB17F591C44E17400D22B97 /* ViewController.h */,
+				2BB17F5A1C44E17400D22B97 /* ViewController.m */,
+				2BB17F5C1C44E17400D22B97 /* Main.storyboard */,
+				2BB17F5F1C44E17400D22B97 /* Assets.xcassets */,
+				2BB17F611C44E17400D22B97 /* LaunchScreen.storyboard */,
+				2BB17F641C44E17400D22B97 /* Info.plist */,
+				2BB17F531C44E17400D22B97 /* Supporting Files */,
+			);
+			path = DAXIAN;
+			sourceTree = "<group>";
+		};
+		2BB17F531C44E17400D22B97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BB17F541C44E17400D22B97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BB17F6C1C44E17400D22B97 /* DAXIANTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB17F6D1C44E17400D22B97 /* DAXIANTests.m */,
+				2BB17F6F1C44E17400D22B97 /* Info.plist */,
+			);
+			path = DAXIANTests;
+			sourceTree = "<group>";
+		};
+		2BB17F771C44E17400D22B97 /* DAXIANUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB17F781C44E17400D22B97 /* DAXIANUITests.m */,
+				2BB17F7A1C44E17400D22B97 /* Info.plist */,
+			);
+			path = DAXIANUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB17F4F1C44E17400D22B97 /* DAXIAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB17F7D1C44E17400D22B97 /* Build configuration list for PBXNativeTarget "DAXIAN" */;
+			buildPhases = (
+				2BB17F4C1C44E17400D22B97 /* Sources */,
+				2BB17F4D1C44E17400D22B97 /* Frameworks */,
+				2BB17F4E1C44E17400D22B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAXIAN;
+			productName = DAXIAN;
+			productReference = 2BB17F501C44E17400D22B97 /* DAXIAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BB17F681C44E17400D22B97 /* DAXIANTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB17F801C44E17400D22B97 /* Build configuration list for PBXNativeTarget "DAXIANTests" */;
+			buildPhases = (
+				2BB17F651C44E17400D22B97 /* Sources */,
+				2BB17F661C44E17400D22B97 /* Frameworks */,
+				2BB17F671C44E17400D22B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB17F6B1C44E17400D22B97 /* PBXTargetDependency */,
+			);
+			name = DAXIANTests;
+			productName = DAXIANTests;
+			productReference = 2BB17F691C44E17400D22B97 /* DAXIANTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BB17F731C44E17400D22B97 /* DAXIANUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB17F831C44E17400D22B97 /* Build configuration list for PBXNativeTarget "DAXIANUITests" */;
+			buildPhases = (
+				2BB17F701C44E17400D22B97 /* Sources */,
+				2BB17F711C44E17400D22B97 /* Frameworks */,
+				2BB17F721C44E17400D22B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB17F761C44E17400D22B97 /* PBXTargetDependency */,
+			);
+			name = DAXIANUITests;
+			productName = DAXIANUITests;
+			productReference = 2BB17F741C44E17400D22B97 /* DAXIANUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB17F481C44E17400D22B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = J.L.Yang;
+				TargetAttributes = {
+					2BB17F4F1C44E17400D22B97 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					2BB17F681C44E17400D22B97 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 2BB17F4F1C44E17400D22B97;
+					};
+					2BB17F731C44E17400D22B97 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 2BB17F4F1C44E17400D22B97;
+					};
+				};
+			};
+			buildConfigurationList = 2BB17F4B1C44E17400D22B97 /* Build configuration list for PBXProject "DAXIAN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB17F471C44E17400D22B97;
+			productRefGroup = 2BB17F511C44E17400D22B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB17F4F1C44E17400D22B97 /* DAXIAN */,
+				2BB17F681C44E17400D22B97 /* DAXIANTests */,
+				2BB17F731C44E17400D22B97 /* DAXIANUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB17F4E1C44E17400D22B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB17F631C44E17400D22B97 /* LaunchScreen.storyboard in Resources */,
+				2BB17F601C44E17400D22B97 /* Assets.xcassets in Resources */,
+				2BB17F5E1C44E17400D22B97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB17F671C44E17400D22B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB17F721C44E17400D22B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB17F4C1C44E17400D22B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB17F5B1C44E17400D22B97 /* ViewController.m in Sources */,
+				2BB17F581C44E17400D22B97 /* AppDelegate.m in Sources */,
+				2BB17F551C44E17400D22B97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB17F651C44E17400D22B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB17F6E1C44E17400D22B97 /* DAXIANTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB17F701C44E17400D22B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB17F791C44E17400D22B97 /* DAXIANUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB17F6B1C44E17400D22B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB17F4F1C44E17400D22B97 /* DAXIAN */;
+			targetProxy = 2BB17F6A1C44E17400D22B97 /* PBXContainerItemProxy */;
+		};
+		2BB17F761C44E17400D22B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB17F4F1C44E17400D22B97 /* DAXIAN */;
+			targetProxy = 2BB17F751C44E17400D22B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BB17F5C1C44E17400D22B97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB17F5D1C44E17400D22B97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BB17F611C44E17400D22B97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB17F621C44E17400D22B97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB17F7B1C44E17400D22B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BB17F7C1C44E17400D22B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BB17F7E1C44E17400D22B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DAXIAN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yjl.DAXIAN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BB17F7F1C44E17400D22B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DAXIAN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yjl.DAXIAN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BB17F811C44E17400D22B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DAXIANTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yjl.DAXIANTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAXIAN.app/DAXIAN";
+			};
+			name = Debug;
+		};
+		2BB17F821C44E17400D22B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DAXIANTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yjl.DAXIANTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAXIAN.app/DAXIAN";
+			};
+			name = Release;
+		};
+		2BB17F841C44E17400D22B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DAXIANUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yjl.DAXIANUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DAXIAN;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2BB17F851C44E17400D22B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DAXIANUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yjl.DAXIANUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DAXIAN;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB17F4B1C44E17400D22B97 /* Build configuration list for PBXProject "DAXIAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB17F7B1C44E17400D22B97 /* Debug */,
+				2BB17F7C1C44E17400D22B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB17F7D1C44E17400D22B97 /* Build configuration list for PBXNativeTarget "DAXIAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB17F7E1C44E17400D22B97 /* Debug */,
+				2BB17F7F1C44E17400D22B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BB17F801C44E17400D22B97 /* Build configuration list for PBXNativeTarget "DAXIANTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB17F811C44E17400D22B97 /* Debug */,
+				2BB17F821C44E17400D22B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BB17F831C44E17400D22B97 /* Build configuration list for PBXNativeTarget "DAXIANUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB17F841C44E17400D22B97 /* Debug */,
+				2BB17F851C44E17400D22B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB17F481C44E17400D22B97 /* Project object */;
+}
